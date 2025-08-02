@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mpano Njamahoro Alliance | Portfolio</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+      color: #333;
+    }
+
+    header {
+      background-color: #004aad;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h1,
+    h2,
+    h3 {
+      color: #004aad;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    .project {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 15px;
+      margin-bottom: 10px;
+      background: white;
+    }
+
+    form {
+      background: white;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    button,
+    a.button {
+      padding: 10px 20px;
+      background-color: #004aad;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    button:hover,
+    a.button:hover {
+      background-color: #003380;
+      color: #e0e0e0;
+    }
+
+    button[type="submit"] {
+      transition: transform 0.2s ease;
+    }
+
+    button[type="submit"]:hover {
+      transform: scale(1.05);
+    }
+
+    a {
+      color: #004aad;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #002266;
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: #004aad;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+
+    i.fab {
+      font-size: 18px;
+      color: white;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* Fade-in animation */
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 1s forwards;
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="fade-in" style="animation-delay: 0.1s;">
+    <h1>Mpano Njamahoro Alliance</h1>
+    <p>Rwandan | Aspiring Cybersecurity Expert | Soccer Talent</p>
+  </header>
+
+  <main>
+    <section id="about" class="fade-in" style="animation-delay: 0.3s;">
+      <h2>About Me</h2>
+      <p>
+        Hello! My name is Mpano Njamahoro Alliance, also known as Trevor. I'm a
+        14-year-old from Bugarama Sector, Rusizi District, Western Province of
+        Rwanda.
+      </p>
+      <p>
+        I completed my primary studies at Groupe Scolaire Saint Paul Muko and my
+        ordinary level studies at Ecole des Sciences Byimana.
+      </p>
+      <p>
+        I’m passionate about computers and technology, especially cybersecurity.
+        I'm also very talented in playing soccer and basketball (though more
+        skilled in soccer!).
+      </p>
+      <p>
+        I’m proud to have received certificates from the ILEAD Program and the
+        Wavumbuzi Entrepreneurship Challenge.
+      </p>
+    </section>
+
+    <section id="projects" class="fade-in" style="animation-delay: 0.6s;">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Personal Portfolio Website</h3>
+        <p>
+          This very website! Built with HTML and CSS to showcase my journey,
+          skills, and projects.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact" class="fade-in" style="animation-delay: 0.9s;">
+      <h2>Contact Info</h2>
+      <p>
+        Email:
+        <a href="mailto:njamahoroalliance1@gmail.com">njamahoroalliance1@gmail.com</a>
+      </p>
+      <p>Location: Bugarama, Rusizi, Western Province, Rwanda</p>
+    </section>
+
+    <section id="contact-form" class="fade-in" style="animation-delay: 1.2s;">
+      <h2>Contact Me</h2>
+      <form action="https://formspree.io/f/mjkoewyl" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="_replyto" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required rows="5"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="fade-in" style="animation-delay: 1.5s;">
+    <p>&copy; 2025 Mpano Njamahoro Alliance. All rights reserved.</p>
+    <div>
+      <a
+        href="https://www.instagram.com/flex_trevor"
+        target="_blank"
+        ><i class="fab fa-instagram"></i> Instagram</a
+      >
+      <a
+        href="https://www.facebook.com/njamapeace.ringgift"
+        target="_blank"
+        ><i class="fab fa-facebook"></i> Facebook</a
+      >
+    </div>
+  </footer>
+</body>
+</html>
